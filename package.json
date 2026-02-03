@@ -8,7 +8,7 @@
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "build": "tsc",
     "docker:build": "powershell ./scripts/build-dockers.ps1",
-    "docker:build:linux": "chmod +x ./scripts/build-dockers.sh && ./scripts/build-dockers.sh",
+    "docker:build:linux": "chmod +x ./scripts/build-dockers.sh && ./scripts/build-dockers.sh"
   },
   "dependencies": {
     "express": "^4.18.2",
